@@ -200,6 +200,8 @@ public:
     return -(int)v - 1;
   }
 
+  int get_ubCost() const {return ubCost;}
+
 protected:
   // Interface with the SAT solver
   //
